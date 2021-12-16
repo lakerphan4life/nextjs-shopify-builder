@@ -6,6 +6,7 @@ import { getProduct } from '@lib/shopify/storefront-data-hooks/src/api/operation
 import builderConfig from '@config/builder'
 import { LoadingDots } from '@components/ui'
 
+
 interface Props {
   className?: string
   children: (product: any) => React.ReactElement
